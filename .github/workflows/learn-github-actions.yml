@@ -11,3 +11,10 @@ jobs:
           node-version: '14'
       - run: npm install -g bats
       - run: bats -v
+  demo-001:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: im running demo
+        run: echo "Im running demo"
+        shell: bash
