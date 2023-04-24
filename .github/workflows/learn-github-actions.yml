@@ -18,3 +18,10 @@ jobs:
       - name: im running demo
         run: echo "Im running demo"
         shell: bash
+  third-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "i'm just test"
+        runs: |
+            echo "First Stept"
+            echo "Second Stept"
