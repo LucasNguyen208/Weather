@@ -22,6 +22,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "i'm just test"
-        runs: |
+        run: |
             echo "First Stept"
             echo "Second Stept"
